@@ -16,7 +16,7 @@ jobs:
         run: echo "hello"
   first-job:
     runs-on: ubuntu-latest
-      steps:
-        - name: Checkout
-          run: echo "hello"      
+    steps:
+      - name: Checkout
+        run: echo "hello"      
           
