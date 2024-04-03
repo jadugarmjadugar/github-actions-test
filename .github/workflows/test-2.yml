@@ -12,7 +12,9 @@ jobs:
           ls
           echo "hello world"
 
-      - name: Checkout
-        run: |
-          chmod +x test.sh
-          sh test.sh
+  second:
+    needs: first-job
+    runs-on: ubuntu-latest
+    steps:
+      - name: karan
+        run: echo bye
