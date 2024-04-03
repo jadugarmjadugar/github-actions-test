@@ -12,4 +12,5 @@ jobs:
           ls
           echo "hello world"
           cat README.md
-       
+      - name: Checkout
+        run: echo "hello"
