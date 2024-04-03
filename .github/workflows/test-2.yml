@@ -11,4 +11,5 @@ jobs:
         run: |
           ls
           echo "hello world"
-          cat Readme.md       
+          cat README.md
+       
