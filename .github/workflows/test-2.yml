@@ -15,4 +15,4 @@ jobs:
       - name: Checkout
         run: |
           chmod +x test.sh
-          ./test.sh
+          sh test.sh
