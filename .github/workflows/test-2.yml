@@ -8,4 +8,7 @@ jobs:
       - name: Checkout
         uses: actions/checkout@v4.1.1
       - name: hihi
-        run: ls       
+        run: |
+          ls
+          echo "hello world"
+          cat Readme.md       
