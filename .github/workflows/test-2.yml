@@ -14,7 +14,7 @@ jobs:
           cat README.md
       - name: Checkout
         run: echo "hello"
-  first-job:
+  second-job:
     runs-on: ubuntu-latest
     steps:
       - name: Checkout
