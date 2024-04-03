@@ -11,12 +11,6 @@ jobs:
         run: |
           ls
           echo "hello world"
-          cat README.md
-      - name: Checkout
-        run: echo "hello"
-  second-job:
-    runs-on: ubuntu-latest
-    steps:
+
       - name: Checkout
         run: ./test.sh
-          
