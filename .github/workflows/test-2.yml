@@ -10,11 +10,6 @@ jobs:
       - name: hihi
         run: |
           ls
-          echo "hello world"
+          echo "hello world" >> gappu.txt
 
-  second:
-    needs: first-job
-    runs-on: [self-hosted]
-    steps:
-      - name: karan
-        run: echo bye
+          
