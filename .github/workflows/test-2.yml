@@ -10,6 +10,7 @@ jobs:
       - name: hihi
         run: |
           ls
+          echo "check from system"
           echo "hello world" >> gappu.txt
       - name: Upload
         uses: actions/upload-artifact@v4
