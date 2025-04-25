@@ -1,0 +1,11 @@
+name: Minimal CI Workflow  # Optional but recommended
+
+on: [push]  # Required - triggers workflow on push events
+
+jobs:  # Required - defines what jobs to run
+  example-job:
+    runs-on: ubuntu-latest  # Required - defines the runner environment
+
+    steps:  # Required - list of steps in the job
+      - name: Print Hello World  # Optional but descriptive
+        run: echo "Hello, World!"  # Required in each step (run or uses)
